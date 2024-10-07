@@ -1,0 +1,3 @@
+requests
+pypasser
+beautifulsoup4
