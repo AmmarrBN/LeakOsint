@@ -1,3 +1,4 @@
 requests
 pypasser
 beautifulsoup4
+pycryptodome
