@@ -41,5 +41,5 @@ $ pip install rich-cli
 $ git clone https://github.com/AmmarrBN/LeakOsint
 $ cd LeakOsint
 $ pip install -r requirements.txt
-$ python3 osint.py
+$ bash osint.py
 ```
