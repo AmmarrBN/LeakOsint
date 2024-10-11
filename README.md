@@ -21,19 +21,23 @@ LeakOsint adalah tools premium yang digunakan untuk track dari berbagai data (No
 # Instalation
 ## TERMUX USER
 ```bash
-$ pkg update && pkg upgrade
-$ pkg install git python -y
+$ pkg install git python curl jq nodejs
+$ npm -g i bash-obfuscate
+$ pip install rich
+$ pip install rich-cli
 $ git clone https://github.com/AmmarrBN/LeakOsint
-$ cd LeakOsint
 $ pip install -r requirements.txt
-$ python osint.py
+$ bash osint.sh
 ```
 ## Kali Linux
 ```python
 $ sudo apt update
 $ sudo apt upgrade
-$ sudo apt install git
+$ sudo apt install git jq nodejs
 $ sudo apt install python3-pip
+$ npm -g i bash-obfuscate
+$ pip install rich
+$ pip install rich-cli
 $ git clone https://github.com/AmmarrBN/LeakOsint
 $ cd LeakOsint
 $ pip install -r requirements.txt
