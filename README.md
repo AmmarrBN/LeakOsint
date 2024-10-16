@@ -35,6 +35,19 @@ $ sudo apt update
 $ sudo apt upgrade
 $ sudo apt install git jq nodejs
 $ sudo apt install python3-pip
+$ sudo apt install python3-venv
+```
+
+# Create Env
+```
+python3 -m venv myenv
+```
+# Activate Env
+```
+source myenv/bin/activate
+```
+# Installation continued
+```python
 $ npm -g i bash-obfuscate
 $ pip install rich
 $ pip install rich-cli
@@ -42,4 +55,8 @@ $ git clone https://github.com/AmmarrBN/LeakOsint
 $ cd LeakOsint
 $ pip install -r requirements.txt
 $ bash osint.py
+```
+# Out Env
+```
+deactivate
 ```
